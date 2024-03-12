@@ -14,7 +14,7 @@ function audioFileToDataURL(file) {
     reader.readAsDataURL(file);
   });
 }
-
+console.log("here")
 function formatAudioDuration(totalSeconds) {
   let hours = Math.floor(totalSeconds / 3600);
   let minutes = Math.floor((totalSeconds - hours * 3600) / 60);
